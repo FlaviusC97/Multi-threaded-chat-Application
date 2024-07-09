@@ -4,3 +4,7 @@
 
 Multi-threaded Java Client-Server Chat Application – GUI - Aplicație de chat Java Client-Server care utilizează mai multe fire de execuţie în paralel şi generează interfeţe grafice GUI pentru fiecare client
 
+1.Am initializat un server care asculta conexiuni pe un port specific (portul 12345)
+2.Serverul accepta conexiuni multiple de la client si creeaza un thread pentru fiecare client conectat
+3.La conectare, clintul trebuie sa trimita numele de utilizator
+4.Clinetii pot trimite mesaje care sunt stocate pe Server
